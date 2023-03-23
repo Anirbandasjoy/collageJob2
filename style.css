@@ -56,10 +56,8 @@ navbar style */
 @media only screen and (max-width: 768px) {
     .navbar {
       flex-direction: column;
-    }
-    
-    .navbar {
       justify-content: center;
+      width: 100%;
     }
     
     .nav-link a {
@@ -180,9 +178,25 @@ navbar style */
     margin-left: 0;
 }
 @media screen and (max-width : 740px) {
+    .Features{
+        width: 100%;
+    }
     .all-features{
         display: grid;
         grid-template-columns: auto; 
-        width: 100%;
+        margin-left: 4rem;  
+        
      }
+     .heart-container{
+        display: flex;
+        max-width: 100%;
+        margin-top: 3rem;
+     }
+     .features-img img{
+        max-width: 250px;
+        padding: 3rem;
+        margin-left: 4rem;
+        text-align: center;
+    }
+     
 }
