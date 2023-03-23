@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+navbar style */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2eeee;
+    color:  #333;
+    padding: 10px;
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* Style for the logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 3rem;
+    transition: .3s;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+
+/* Style for the navigation links */
+.nav-links {
+    list-style: none;
+    margin: 0 5rem;
+    padding: 0;
+    display: flex;
+   
+}
+
+.nav-link {
+    margin: 0 10px;
+    transition: .5s;
+
+}
+.nav-link:hover {
+    transform: rotate(360deg);
+}
+
+
+.nav-link a {
+    color:  #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+    
+    .navbar {
+      justify-content: center;
+    }
+    
+    .nav-link a {
+        color:  #333;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+    }
+  }
+  
+/* navbar style end */
+
+/* header style start */
+
+.header{
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.7rem;
+}
+.header-text{
+    max-width: 350px;
+  
+}
+.header-text h1{
+    font-size: 3rem;
+    margin-bottom:.5rem;
+}
+.header-text p{
+    margin-bottom: 1rem;
+}
+.header-text h1 samp{
+    color: red;
+}
+.header-text .free-btn{
+    background-color: red;
+    color: white;
+    padding: .7rem 1.2rem;
+    border: none;
+    border-radius: .5rem;
+}
+.header-text .premiam-btn{
+    background-color: #2c3e50;
+    color: white;
+    padding: .7rem 1.2rem;
+    border: none;
+    border-radius: .5rem;
+}
+.header img{
+    max-width: 400px;
+   padding: 2rem;
+}
+
+/* header responsive css */
+
+@media screen and (max-width : 740px) {
+    .header-container{
+       display: grid;
+       grid-template-columns: auto;
+    }
+    .header img{
+       margin-top: 2rem;
+    }
+}
+
+/* features style */
+.features-container{
+   
+}
+.features-header-text{
+   max-width: 400px;
+   margin: auto;
+   text-align: center;
+}
+
+
+/* features style */
+.Features{
+    padding: 5rem 3rem;
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    max-width: 1140px;
+    margin: auto;
+    border-top: 1px solid rgb(194, 194, 194);
+}
+.all-features{
+   display: flex;
+   margin-left: 6rem;  
+}
+.heart-container{
+    display: flex;
+    max-width: 270px;
+    margin-top: 3rem;
+}
+.heart-text h1{
+    font-size: 32px;
+    margin-bottom: .7rem;
+}
+.heart-text p{
+    line-height: 21px;
+}
+.heart-icon .heart{
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    padding: .5rem;
+    font-size: 35px;
+    margin-left: 1rem;
+}
+.features-img img{
+    max-width: 250px;
+    padding: 3rem;
+}
+
+.right-features .feature .heart-icon .heart{
+    margin-left: 0;
+}
+@media screen and (max-width : 740px) {
+    .all-features{
+        display: grid;
+        grid-template-columns: auto; 
+        width: 100%;
+     }
+}
