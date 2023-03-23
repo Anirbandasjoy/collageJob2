@@ -59,6 +59,10 @@ navbar style */
       justify-content: center;
       width: 100%;
     }
+    .logo {
+        margin-left: 0;
+        margin-bottom: .5rem;
+    }
     
     .nav-link a {
         color:  #333;
